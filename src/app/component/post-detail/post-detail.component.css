@@ -1,0 +1,27 @@
+.example-card {
+    max-width: 500px;
+    margin: auto;
+}
+
+mat-card-content {
+    margin-top: 10px;
+
+}
+
+.textStyle {
+    font-weight: 500;
+}
+
+.cardButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.cardHeader {
+    background-color: #3f51b5;
+}
+
+.text {
+    color: white;
+}

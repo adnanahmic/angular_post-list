@@ -1,0 +1,23 @@
+<div class="container">
+    <mat-card class="example-card" *ngIf="!loader">
+        <div *ngIf="!loader" class="cardHeader">
+            <mat-card-header>
+                <p class="text">{{headingText}}</p>
+            </mat-card-header>
+        </div>
+        <mat-card-content>
+            <p><span class="textStyle">{{title}}</span>: {{postDetail?.title}}</p>
+            <p><span class="textStyle">{{body}}</span> : {{postDetail?.body}}</p>
+        </mat-card-content>
+        <div class="cardButton">
+            <mat-card-actions>
+                <button mat-raised-button color="primary" (click)="closeDialog()">Close</button>
+            </mat-card-actions>
+        </div>
+    </mat-card>
+    <mat-card class="example-card" *ngIf="loader">
+        <mat-card-content>
+            {{loading}}
+        </mat-card-content>
+    </mat-card>
+</div>
