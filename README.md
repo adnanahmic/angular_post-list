@@ -1,3 +1,8 @@
+# Setup instructions
+
+- npm install
+- npm start
+
 # Assignment
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.1.
